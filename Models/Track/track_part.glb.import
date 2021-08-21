@@ -1,0 +1,34 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+path="res://.godot/imported/track_part.glb-5330a2047435315527dbc7ed7df727d5.scn"
+
+[deps]
+
+source_file="res://Models/Track/track_part.glb"
+dest_files=[ "res://.godot/imported/track_part.glb-5330a2047435315527dbc7ed7df727d5.scn" ]
+
+[params]
+
+nodes/root_type="Spatial"
+nodes/root_name="Scene Root"
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=0
+meshes/lightmap_texel_size=0.1
+skins/use_named_skins=true
+animation/import=false
+animation/fps=15
+import_script/path=""
+_subresources={
+"meshes": {
+"track_part_Cube003": {
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Models/Track/track_part.res"
+}
+}
+}

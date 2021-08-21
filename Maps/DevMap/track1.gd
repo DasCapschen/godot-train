@@ -1,4 +1,4 @@
-extends Path
+extends Path3D
 
 
 # Declare member variables here. Examples:
@@ -26,8 +26,8 @@ func get_closest_on_curve():
 func _physics_process(delta: float) -> void:
 	$train_simple.offset += delta * 15
 	
-	$train1_frontAxle.offset += delta * 15
-	$train1_backAxle.offset = get_closest_on_curve()
+	#$train1_frontAxle.offset += delta * 15
+	#$train1_backAxle.offset = get_closest_on_curve()
 	
 	# this works just as well!!!
 	#$train2_frontAxle.offset += delta * 5
